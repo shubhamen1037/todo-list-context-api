@@ -1,0 +1,10 @@
+.list-container{
+    background-color: antiquewhite;
+    margin: 0px 265px 0px 265px;
+    height: 830px;
+    padding: 10px;
+    overflow: auto;
+}
+/* .list-container{
+    background-color: antiquewhite;
+} */

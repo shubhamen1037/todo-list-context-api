@@ -1,0 +1,56 @@
+.container-task-list{
+    /* background-color:palegoldenrod; */
+    display: flex;
+    /* margin-left: -220px;
+    margin-right: -220px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: 10px 20px 10px 20px;
+    border: 0.5px solid black;
+    border-radius: 1rem;
+    
+}
+
+.task-topic{
+    width: 1024px;
+    height: auto;
+    /* border: 2px solid black; */
+    background-color: lightgrey;
+    margin: 10px;
+    border-radius: 1rem;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.discription{
+    width: 1024px;
+    height: auto;
+    /* border: 2px solid black; */
+    background-color:white;
+    margin: 10px;
+    border-radius: 1rem;
+    padding: 20px;
+    text-align: center;
+}
+
+.infor{
+    margin-right: 0px;
+    /* float: right; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.date-time{
+    border: 2px solid black;
+
+}
+.mark-done{
+    margin-bottom: 0px;
+    border:2px solid black;
+    text-align: center;
+}

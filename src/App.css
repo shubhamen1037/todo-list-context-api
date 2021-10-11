@@ -1,0 +1,62 @@
+.list-container{
+    background-color: antiquewhite;
+    margin-left: 265px;
+    margin-right: 265px;
+    overflow: auto;
+    height: 800px;
+}
+.container-task-list{
+    background-color: darksalmon;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* margin: 10px 265px 10px 265px; */
+    border: 0.5px solid black;
+    border-radius: 1rem;
+    
+}
+
+.task-topic{
+    width: 1024px;
+    height: auto;
+    /* border: 2px solid black; */
+    background-color: lightgrey;
+    margin: 10px;
+    border-radius: 1rem;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.discription{
+    width: 1024px;
+    height: auto;
+    /* border: 2px solid black; */
+    background-color:white;
+    margin: 10px;
+    border-radius: 1rem;
+    padding: 20px;
+    text-align: center;
+}
+
+.infor{
+    margin-right: 0px;
+    /* float: right; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.date-time{
+    border: 2px solid black;
+
+}
+
+.marked-as-done:focus{
+    background-color: lawngreen;
+}
